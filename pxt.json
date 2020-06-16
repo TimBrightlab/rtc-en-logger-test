@@ -1,0 +1,22 @@
+{
+    "name": "rtc en logger test",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "gatorRTC": "github:sparkfun/pxt-gator-rtc#v0.0.46",
+        "gatorLog": "github:sparkfun/pxt-gator-log#v0.3.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
